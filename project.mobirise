@@ -13,7 +13,7 @@
         "dangerColor": "#8eb2d8",
         "mainFont": "Roboto",
         "display1Font": "ArbFONTS-ArbFONTS-Janna-LT-Regular",
-        "display1Size": "2.6",
+        "display1Size": "2",
         "display2Font": "ArbFONTS-ArbFONTS-Janna-LT-Regular",
         "display2Size": "2",
         "display5Font": "ArbFONTS-ArbFONTS-Janna-LT-Regular",
@@ -260,7 +260,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 58,
+    "uniqCompNum": 60,
     "versionPublish": "5.4.1",
     "screenshot": "screenshot.png",
     "global_footer_custom": "<script  src=\"https://cdn.ratina.co/js/helper-v11.js?c=b&l=en\" ></script>",
@@ -742,7 +742,7 @@
           },
           "_name": "header2",
           "_sourceTheme": "studiom4",
-          "_customHTML": "<section class=\"header2 studiom4_header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"14\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n\t\t<input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\">\n\t\t\t<input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/bg-807x536.png\" parallax selected>\n\t\t\t<input type=\"color\" title=\"Background Color\" value=\"#767676\">\n\t\t\t<input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\t<div class=\"container align-center\">\n\t\t<div class=\"row justify-content-md-center\">\n\t\t\t<div class=\"mbr-white col-md-10 col-lg-7\">\n\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-semibold align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\">منذ عــــــ1996ـــــام</h3>\n\t\t\t\t<h1 class=\"mbr-section-title mbr-semibold mbr-fonts-style align-center\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">مصنع حجر الرياض</h1>\n\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">لأنتاج واجهات تعكس الفخامة و العراقة والآصالة ، تدوم للأبد</p>\n\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" style><a class=\"btn btn-black-outline\" href=\"https://wa.me/966537225533\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v1-chat-bubble1 mbr-iconfont mbr-iconfont-btn\"></span>&nbsp;محادثة</a> <a class=\"btn btn-primary-outline\" href=\"tel:+966537225533\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v1-phone-2 mbr-iconfont mbr-iconfont-btn\"></span><font face=\"icon54\"><br></font>إتصال</a>\n                <a class=\"btn fixedbutton btn-info\" href=\"tel:+966537225533\" style=\"border-radius: 100px;\" data-app-placeholder=\"Type Text\"><span class=\"mbr-iconfont mbr-iconfont-1 sli-phone\"></span>0537225533</a></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n\t\t<a href=\"#next\">\n\t\t\t<i class=\"mbri-down mbr-iconfont\"></i>\n\t\t</a>\n\t</div>\n</section>",
+          "_customHTML": "<section class=\"header2 studiom4_header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"14\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n\t\t<input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\">\n\t\t\t<input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/bg-807x536.png\" parallax selected>\n\t\t\t<input type=\"color\" title=\"Background Color\" value=\"#767676\">\n\t\t\t<input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\t<div class=\"container align-center\">\n\t\t<div class=\"row justify-content-md-center\">\n\t\t\t<div class=\"mbr-white col-md-10 col-lg-7\">\n\t\t\t\t<h3 class=\"mbr-section-subtitle mbr-semibold align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\">منذ عــــــ1996ـــــام</h3>\n\t\t\t\t<h1 class=\"mbr-section-title mbr-semibold mbr-fonts-style align-center\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">مصنع حجر الرياض</h1>\n\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">لأنتاج واجهات تعكس الفخامة و العراقة والآصالة ، تدوم للأبد</p>\n\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" style><a class=\"btn btn-black-outline\" href=\"https://wa.me/966537225533\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v1-chat-bubble1 mbr-iconfont mbr-iconfont-btn\"></span>&nbsp;محادثة</a> <a class=\"btn btn-primary-outline\" href=\"tel:+966537225533\" data-app-placeholder=\"Type Text\"><span class=\"icon54-v1-phone-2 mbr-iconfont mbr-iconfont-btn\"></span><font face=\"icon54\"><br></font>إتصال</a>\n                <a class=\"btn fixedbutton btn-info\" href=\"tel:+966537225533\" style=\"border-radius: 100px;\" data-app-placeholder=\"Type Text\"><span class=\"mbr-iconfont mbr-iconfont-1 sli-phone\"></span>0537225533</a></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n\t\t<a href=\"#next\">\n\t\t\t<i class=\"mbri-down mbr-iconfont\"></i>\n\t\t</a>\n\t</div>\n</section>",
           "_cid": "sT4A9Km7MK",
           "_anchor": "header2-1",
           "_PHPplaceholders": [],
@@ -1064,6 +1064,234 @@
           "_anchor": "people1-1j",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-text": {
+              "color": "#767676"
+            },
+            ".icon-1": {
+              "color": "@IconsColor1",
+              "font-size": "3.5rem"
+            },
+            ".icon-arrow": {
+              "color": "@IconsColor2",
+              "font-size": "1.8rem !important"
+            },
+            ".link": {
+              "margin": "0",
+              "transition": "400ms cubic-bezier(0.17, 0.67, 0, 1.01)",
+              "text-align": "right"
+            },
+            "@media (min-width: 767px)": {
+              ".card": {
+                "display": "flex",
+                "flex-direction": "row",
+                "align-items": "center"
+              },
+              ".row": {
+                "margin": "0"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".link a": {
+                "&:after": {
+                  "right": "0",
+                  "margin": "auto"
+                }
+              }
+            },
+            ".row": {
+              "justify-content": "center"
+            },
+            "@media (max-width: 992px)": {
+              ".card": {
+                "margin-bottom": "2rem"
+              }
+            },
+            ".text-link": {
+              "font-weight": "800 !important"
+            },
+            ".card-inner": {
+              "width": "100%",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "space-between",
+              "background-color": "@cardBg",
+              "padding": "2rem 1.8rem",
+              "position": "relative",
+              "overflow": "hidden"
+            },
+            ".card-img": {
+              "opacity": "0",
+              "left": "-40px",
+              "top": "20%",
+              "position": "absolute",
+              "transition": "400ms cubic-bezier(0.17, 0.67, 0, 1.01)"
+            },
+            ".card-icon": {
+              "display": "flex",
+              "transition": "400ms cubic-bezier(0.17, 0.67, 0, 1.01)"
+            },
+            ".card:hover": {
+              ".card-inner": {
+                "background-color": "@dangerColor"
+              },
+              ".icon-arrow": {
+                "color": "#fff"
+              },
+              ".text-link": {
+                "color": "#fff !important"
+              },
+              ".card-img": {
+                "opacity": "1",
+                "left": "-10px"
+              },
+              ".link": {
+                "transform": "translateX(42px)"
+              },
+              ".card-icon": {
+                "transform": "translateX(10px)"
+              }
+            },
+            "h5": {
+              "color": "#101010",
+              "font-weight": "800"
+            }
+          },
+          "_name": "features1",
+          "_sourceTheme": "studiom4",
+          "_customHTML": "<section class=\"features1 studiom4_features1\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Show Links\" name=\"showLink\" checked>\n\t\t<header>Additional</header>\n\t\t<input type=\"color\" title=\"Icons Color 1\" name=\"IconsColor1\" value=\"#ffffff\" selected>\n\t\t<input type=\"color\" title=\"Icons Color 2\" name=\"IconsColor2\" value=\"#2c4b68\" selected>\n\t\t<input type=\"color\" title=\"Card Background\" name=\"cardBg\" value=\"#f3f3f3\" selected>\n\t\t<select title=\"Cards\" name=\"cardsAmount\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\">2</option>\n\t\t\t<option value=\"3\" selected>3</option>\n\t\t\t<option value=\"4\">4</option>\n\t\t</select>\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/man-3.jpg\" parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t</div>\n\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"card col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-inner\">\n\t\t\t\t\t<div class=\"card-img\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont icon-1 mobi-mbri-protect mobi-mbri\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h5 class=\"link align-left mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showLink\" data-app-selector=\".link\"><span style=\"font-weight: 400;\">حجر الرياض الطبيعي</span></h5>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-icon\">\n\t\t\t\t\t\t<a href=\"tel:0537225533\"><span mbr-icon class=\"mbr-iconfont icon-arrow mobi-mbri-right mobi-mbri\"></span></a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"card col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-inner\">\n\t\t\t\t\t<div class=\"card-img\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont icon-1 socicon-sketchfab socicon\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h5 class=\"link align-left mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showLink\" data-app-selector=\".link\"><span style=\"font-weight: 400;\">اسعار حجر الرياض الطبيعي</span></h5>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-icon\">\n\t\t\t\t\t\t<a href=\"tel:0537225533\"><span mbr-icon class=\"mbr-iconfont icon-arrow mobi-mbri-right mobi-mbri\"></span></a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-inner\">\n\t\t\t\t\t<div class=\"card-img\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont icon-1 mbrib-success\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h5 class=\"link align-left mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showLink\" data-app-selector=\".link\"><span style=\"font-weight: 400;\">توريد حجر الرياض</span></h5>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-icon\">\n\t\t\t\t\t\t<a href=\"tel:0537225533\"><span mbr-icon class=\"mbr-iconfont icon-arrow mobi-mbri-right mobi-mbri\"></span></a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-inner\">\n\t\t\t\t\t<div class=\"card-img pb-3\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbri-desktop mbr-iconfont icon-1\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h5 class=\"link align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showLink\" data-app-selector=\".link\"><a href=\"#\" class=\"text-link text-black\">\n\t\t\t\t\t\t\t\tPhotography</a></h5>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-icon\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont icon-arrow mobi-mbri-right mobi-mbri\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_anchor": "features1-1m",
+          "_isUserblock": true,
+          "_cid": "ti9wbNNxxQ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-text": {
+              "color": "#767676"
+            },
+            ".icon-1": {
+              "color": "@IconsColor1",
+              "font-size": "3.5rem"
+            },
+            ".icon-arrow": {
+              "color": "@IconsColor2",
+              "font-size": "1.8rem !important"
+            },
+            ".link": {
+              "margin": "0",
+              "transition": "400ms cubic-bezier(0.17, 0.67, 0, 1.01)",
+              "text-align": "right"
+            },
+            "@media (min-width: 767px)": {
+              ".card": {
+                "display": "flex",
+                "flex-direction": "row",
+                "align-items": "center"
+              },
+              ".row": {
+                "margin": "0"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".link a": {
+                "&:after": {
+                  "right": "0",
+                  "margin": "auto"
+                }
+              }
+            },
+            ".row": {
+              "justify-content": "center"
+            },
+            "@media (max-width: 992px)": {
+              ".card": {
+                "margin-bottom": "2rem"
+              }
+            },
+            ".text-link": {
+              "font-weight": "800 !important"
+            },
+            ".card-inner": {
+              "width": "100%",
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "space-between",
+              "background-color": "@cardBg",
+              "padding": "2rem 1.8rem",
+              "position": "relative",
+              "overflow": "hidden"
+            },
+            ".card-img": {
+              "opacity": "0",
+              "left": "-40px",
+              "top": "20%",
+              "position": "absolute",
+              "transition": "400ms cubic-bezier(0.17, 0.67, 0, 1.01)"
+            },
+            ".card-icon": {
+              "display": "flex",
+              "transition": "400ms cubic-bezier(0.17, 0.67, 0, 1.01)"
+            },
+            ".card:hover": {
+              ".card-inner": {
+                "background-color": "@dangerColor"
+              },
+              ".icon-arrow": {
+                "color": "#fff"
+              },
+              ".text-link": {
+                "color": "#fff !important"
+              },
+              ".card-img": {
+                "opacity": "1",
+                "left": "-10px"
+              },
+              ".link": {
+                "transform": "translateX(42px)"
+              },
+              ".card-icon": {
+                "transform": "translateX(10px)"
+              }
+            },
+            "h5": {
+              "color": "#101010",
+              "font-weight": "800"
+            }
+          },
+          "_name": "features1",
+          "_sourceTheme": "studiom4",
+          "_customHTML": "<section class=\"features1 studiom4_features1\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Show Links\" name=\"showLink\" checked>\n\t\t<header>Additional</header>\n\t\t<input type=\"color\" title=\"Icons Color 1\" name=\"IconsColor1\" value=\"#ffffff\" selected>\n\t\t<input type=\"color\" title=\"Icons Color 2\" name=\"IconsColor2\" value=\"#2c4b68\" selected>\n\t\t<input type=\"color\" title=\"Card Background\" name=\"cardBg\" value=\"#f3f3f3\" selected>\n\t\t<select title=\"Cards\" name=\"cardsAmount\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\">2</option>\n\t\t\t<option value=\"3\" selected>3</option>\n\t\t\t<option value=\"4\">4</option>\n\t\t</select>\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/man-3.jpg\" parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t</div>\n\n\t<div class=\"container\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"card col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-inner\">\n\t\t\t\t\t<div class=\"card-img\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont icon-1 mobi-mbri-protect mobi-mbri\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h5 class=\"link align-left mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showLink\" data-app-selector=\".link\"><span style=\"font-weight: 400;\">حجر ابيض&nbsp;</span></h5>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-icon\">\n\t\t\t\t\t\t<a href=\"0537225533\"><span mbr-icon class=\"mbr-iconfont icon-arrow mobi-mbri-right mobi-mbri\"></span></a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"card col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-inner\">\n\t\t\t\t\t<div class=\"card-img\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont icon-1 socicon-sketchfab socicon\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h5 class=\"link align-left mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showLink\" data-app-selector=\".link\"><span style=\"font-weight: 400;\">حجر كريمي</span></h5>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-icon\">\n\t\t\t\t\t\t<a href=\"0537225533\"><span mbr-icon class=\"mbr-iconfont icon-arrow mobi-mbri-right mobi-mbri\"></span></a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-inner\">\n\t\t\t\t\t<div class=\"card-img\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont icon-1 mbrib-success\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h5 class=\"link align-left mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showLink\" data-app-selector=\".link\"><span style=\"font-weight: 400;\">حجر اصفر</span></h5>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-icon\">\n\t\t\t\t\t\t<a href=\"tel:0537225533\"><span mbr-icon class=\"mbr-iconfont icon-arrow mobi-mbri-right mobi-mbri\"></span></a>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"card col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                            'col-lg-4': cardsAmount == '3'}\">\n\t\t\t\t<div class=\"card-inner\">\n\t\t\t\t\t<div class=\"card-img pb-3\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbri-desktop mbr-iconfont icon-1\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-box\">\n\t\t\t\t\t\t<h5 class=\"link align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showLink\" data-app-selector=\".link\"><a href=\"#\" class=\"text-link text-black\">\n\t\t\t\t\t\t\t\tPhotography</a></h5>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"card-icon\">\n\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont icon-arrow mobi-mbri-right mobi-mbri\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_anchor": "features1-1n",
+          "_isUserblock": true,
+          "_cid": "ti9wF5S2Jq",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
